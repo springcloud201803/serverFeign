@@ -5,7 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
-
+/**
+ * feign  远程调用
+ * @author pain
+ *
+ */
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
